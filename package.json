@@ -24,14 +24,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "lint": "eslint \"src/**/*.{js,jsx,ts,tsx}\" --quiet",
-    "lint:fix": "eslint --fix \"src/**/*.{js,jsx,ts,tsx}\" --quiet"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+    "lint": "eslint src/**/*.{js,jsx,ts,tsx} --quiet",
+    "lint:fix": "eslint --fix src/**/*.{js,jsx,ts,tsx} --quiet"
   },
   "browserslist": {
     "production": [
@@ -45,5 +39,15 @@
       "last 1 safari version"
     ]
   },
-  "packageManager": "yarn@4.9.1"
+  "packageManager": "yarn@4.9.1",
+  "devDependencies": {
+    "@craco/craco": "^7.1.0",
+    "craco-alias": "^3.0.1",
+    "eslint": "^9.26.0",
+    "eslint-config-prettier": "^10.1.5",
+    "eslint-config-react-app": "^7.0.1",
+    "eslint-plugin-prettier": "^5.4.0",
+    "eslint-plugin-react": "^7.37.5",
+    "prettier": "^3.5.3"
+  }
 }
