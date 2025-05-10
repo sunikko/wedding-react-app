@@ -1,6 +1,7 @@
 {
   "name": "react-wedding",
   "version": "0.1.0",
+  "type": "module",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
@@ -15,6 +16,7 @@
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-scripts": "5.0.1",
+    "sass": "^1.87.0",
     "scss": "^0.2.4",
     "typescript": "^4.4.2",
     "web-vitals": "^2.1.0"
@@ -43,11 +45,12 @@
   "devDependencies": {
     "@craco/craco": "^7.1.0",
     "craco-alias": "^3.0.1",
-    "eslint": "^9.26.0",
+    "eslint": "8",
     "eslint-config-prettier": "^10.1.5",
     "eslint-config-react-app": "^7.0.1",
     "eslint-plugin-prettier": "^5.4.0",
     "eslint-plugin-react": "^7.37.5",
+    "eslint-webpack-plugin": "^5.0.1",
     "prettier": "^3.5.3"
   }
 }
