@@ -1,7 +1,6 @@
 {
   "name": "react-wedding",
   "version": "0.1.0",
-  "type": "module",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
@@ -22,12 +21,13 @@
     "web-vitals": "^2.1.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "eject": "craco eject",
     "lint": "eslint src/**/*.{js,jsx,ts,tsx} --quiet",
-    "lint:fix": "eslint --fix src/**/*.{js,jsx,ts,tsx} --quiet"
+    "lint:fix": "eslint --fix src/**/*.{js,jsx,ts,tsx} --quiet",
+    "dev:db": "json-server db.json --watch --port=8888"
   },
   "browserslist": {
     "production": [
@@ -51,6 +51,7 @@
     "eslint-plugin-prettier": "^5.4.0",
     "eslint-plugin-react": "^7.37.5",
     "eslint-webpack-plugin": "^5.0.1",
+    "json-server": "^1.0.0-beta.3",
     "prettier": "^3.5.3"
   }
 }
