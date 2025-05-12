@@ -1,6 +1,8 @@
 import { useEffect, useState } from 'react'
 import className from 'classnames/bind'
 import styles from './App.module.scss'
+import FullScrrenMessage from './components/shared/FullScreenMessage'
+
 const cx = className.bind(styles)
 function App() {
   const [wedding, setWedding] = useState(null)
@@ -31,10 +33,10 @@ function App() {
   }, [])
 
   if (loading) {
-    return 'Loading...'
+    return <FullScrrenMessage type="loading" />
   }
   if (error) {
-    return 'Error'
+    return <FullScrrenMessage type="error" />
   }
   return <div className={cx('container')}>{JSON.stringify(wedding)}</div>
 }
