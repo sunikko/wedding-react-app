@@ -39,6 +39,7 @@ const RAW_RUNTIME_STATE =
           ["@types/react-dom", "virtual:8faa9c7ca2700aa1193d17388b5ed5d4774b82791037d011ebaf2f53e4ada69c8a559d3d9a12281cc21b93b65736c215dee448916306c19e89fa9c55a558ba4d#npm:19.1.3"],\
           ["classnames", "npm:2.5.1"],\
           ["craco-alias", "npm:3.0.1"],\
+          ["date-fns", "npm:4.1.0"],\
           ["eslint", "npm:8.57.1"],\
           ["eslint-config-prettier", "virtual:8faa9c7ca2700aa1193d17388b5ed5d4774b82791037d011ebaf2f53e4ada69c8a559d3d9a12281cc21b93b65736c215dee448916306c19e89fa9c55a558ba4d#npm:10.1.5"],\
           ["eslint-config-react-app", "virtual:8faa9c7ca2700aa1193d17388b5ed5d4774b82791037d011ebaf2f53e4ada69c8a559d3d9a12281cc21b93b65736c215dee448916306c19e89fa9c55a558ba4d#npm:7.0.1"],\
@@ -8229,6 +8230,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["date-fns", [\
+      ["npm:4.1.0", {\
+        "packageLocation": "../../../../.yarn/berry/cache/date-fns-npm-4.1.0-764604ee0f-10c0.zip/node_modules/date-fns/",\
+        "packageDependencies": [\
+          ["date-fns", "npm:4.1.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["dayjs", [\
       ["npm:1.11.13", {\
         "packageLocation": "../../../../.yarn/berry/cache/dayjs-npm-1.11.13-d478bb9479-10c0.zip/node_modules/dayjs/",\
@@ -16217,6 +16227,7 @@ const RAW_RUNTIME_STATE =
           ["@types/react-dom", "virtual:8faa9c7ca2700aa1193d17388b5ed5d4774b82791037d011ebaf2f53e4ada69c8a559d3d9a12281cc21b93b65736c215dee448916306c19e89fa9c55a558ba4d#npm:19.1.3"],\
           ["classnames", "npm:2.5.1"],\
           ["craco-alias", "npm:3.0.1"],\
+          ["date-fns", "npm:4.1.0"],\
           ["eslint", "npm:8.57.1"],\
           ["eslint-config-prettier", "virtual:8faa9c7ca2700aa1193d17388b5ed5d4774b82791037d011ebaf2f53e4ada69c8a559d3d9a12281cc21b93b65736c215dee448916306c19e89fa9c55a558ba4d#npm:10.1.5"],\
           ["eslint-config-react-app", "virtual:8faa9c7ca2700aa1193d17388b5ed5d4774b82791037d011ebaf2f53e4ada69c8a559d3d9a12281cc21b93b65736c215dee448916306c19e89fa9c55a558ba4d#npm:7.0.1"],\

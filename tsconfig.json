@@ -20,10 +20,8 @@
     "paths": {
       "@/*": ["src/*"],
       "@components/*": ["src/components/*"],
-      "@scss/*": ["src/scss/*"],
       "@shared/*": ["src/components/shared/*"],
-      "@models/*": ["src/models/*"],
-      "@contexts/*": ["src/contexts/*"]
+      "@models/*": ["src/models/*"]
     }
   },
   "include": ["src", "tsconfig.paths.json"]
