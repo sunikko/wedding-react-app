@@ -13,6 +13,16 @@ function App() {
   const [wedding, setWedding] = useState<Wedding | null>(null)
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState(false)
+  const [showIntro, setShowIntro] = useState(true)
+
+  // intro movie timeout
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setShowIntro(false)
+    }, 3000)
+
+    return () => clearTimeout(timer)
+  }, [])
 
   // 1. data fetching
   useEffect(() => {
@@ -37,17 +47,24 @@ function App() {
       })
   }, [])
 
-  if (loading) {
+  if (showIntro) {
+    // TODO: Replace with <IntroVideo /> component later (for intro animation or video)
+    return <FullScrrenMessage type="loading" />
+  }
+
+  if (loading || !wedding) {
     return <FullScrrenMessage type="loading" />
   }
   if (error) {
     return <FullScrrenMessage type="error" />
   }
 
-  if (!wedding) {
+  const { date } = wedding
+
+  if (!date) {
+    console.error('no date', wedding)
     return <FullScrrenMessage type="error" />
   }
-  const { date } = wedding
 
   return (
     <div className={cx('container')}>
