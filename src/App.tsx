@@ -3,8 +3,9 @@ import className from 'classnames/bind'
 import styles from './App.module.scss'
 import FullScrrenMessage from '@shared/FullScreenMessage'
 
-import Heading from './components/sections/Heading'
-import Movie from './components/sections/Movie'
+import Heading from '@components/sections/Heading'
+import Movie from '@components/sections/Movie'
+import ImageGallery from '@components/sections/ImageGallery'
 
 import { Wedding } from '@models/wedding'
 
