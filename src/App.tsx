@@ -60,7 +60,7 @@ function App() {
     return <FullScrrenMessage type="error" />
   }
 
-  const { date } = wedding
+  const { date, galleryImages } = wedding
 
   if (!date) {
     console.error('no date', wedding)
@@ -71,6 +71,7 @@ function App() {
     <div className={cx('container')}>
       <Heading date={date} />
       <Movie />
+      <ImageGallery images={galleryImages} />
       {JSON.stringify(wedding)}
     </div>
   )
