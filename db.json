@@ -74,22 +74,22 @@
       ]
     },
     "message": {
-      "intro": "With the purest heart,\nWith thoughts meant just for you,\nI wish to fill my soul with love for you.\nThough what I offer may be small,\nIf you allow me,\nLet it be said that it is my entire heart.\n\n– Kyung-sun Lee, <My Heart>",
+      "intro": "With the purest heart,\nWith thoughts meant just for you,\nI wish to fill my soul with love for you.\nThough what I offer may be small,\nIf you allow me,\nLet it be said that it is my entire heart.\n\n– Charlotte Evans <My Heart>",
       "invitation": "You are warmly invited.\nAs the gentle breeze carries love through the air,\nTwo people join together to begin a new life as partners.\nPlease join us on this joyful occasion\nAnd bless the beginning of our new journey."
     },
     "galleryImages": [
-      "/image/wedding_01.jpg",
-      "/image/wedding_02.jpg",
-      "/image/wedding_03.jpg",
-      "/image/wedding_04.jpg",
-      "/image/wedding_05.jpg",
-      "/image/wedding_06.jpg",
-      "/image/wedding_07.jpg",
-      "/image/wedding_08.jpg",
-      "/image/wedding_09.jpg",
-      "/image/wedding_10.jpg",
-      "/image/wedding_11.jpg",
-      "/image/wedding_12.jpg"
+      "/assets/image/wedding_01.jpg",
+      "/assets/image/wedding_02.jpg",
+      "/assets/image/wedding_03.jpg",
+      "/assets/image/wedding_04.jpg",
+      "/assets/image/wedding_05.jpg",
+      "/assets/image/wedding_06.jpg",
+      "/assets/image/wedding_07.jpg",
+      "/assets/image/wedding_08.jpg",
+      "/assets/image/wedding_09.jpg",
+      "/assets/image/wedding_10.jpg",
+      "/assets/image/wedding_11.jpg",
+      "/assets/image/wedding_12.jpg"
     ],
     "attendCount": "0"
   }
