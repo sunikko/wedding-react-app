@@ -25,13 +25,11 @@ function Intro({
   locationName,
   message,
 }: IntroProps) {
-  const HeartIcon = FaHeart as any
-  const IconFlower = GiFlowerTwirl as any
   return (
     <Section className={cx('container')}>
       <div className={cx('wrap-persons')}>
         <span className={cx('person')}>{groomName}</span>
-        <HeartIcon className={cx('ico-heart')} />
+        <FaHeart className={cx('ico-heart')} />
         <span className={cx('person')}>{bridgeName}</span>
       </div>
       <div className={cx('wrap-location')}>
@@ -41,7 +39,7 @@ function Intro({
         <div className={cx('location')}>{locationName}</div>
       </div>
 
-      <IconFlower className={cx('ico-flower')} />
+      <GiFlowerTwirl className={cx('ico-flower')} />
       <Text>{message}</Text>
     </Section>
   )

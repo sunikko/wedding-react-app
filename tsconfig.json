@@ -23,7 +23,7 @@
       "@shared/*": ["src/components/shared/*"],
       "@models/*": ["src/models/*"],
       "@assets/*": ["src/assets/*"],
-      "@scss/*": ["src/scss/*"],
+      "@scss/*": ["src/scss/*"]
     }
   },
   "include": ["src", "tsconfig.paths.json"]
