@@ -11,6 +11,7 @@ import { Wedding } from '@models/wedding'
 import Intro from '@components/sections/Intro'
 import Invitation from '@components/sections/Invitation'
 import Calendar from '@components/sections/Calendar'
+import Contact from '@components/sections/Contact'
 
 const cx = className.bind(styles)
 function App() {
@@ -84,6 +85,7 @@ function App() {
       <Invitation message={wedding.message.invitation} />
       <ImageGallery images={galleryImages} />
       <Calendar date={date} />
+      <Contact />
       {JSON.stringify(wedding)}
     </div>
   )
