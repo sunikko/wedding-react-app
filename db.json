@@ -25,7 +25,8 @@
       "name": "William Turner",
       "account": {
         "bankName": "Barclays",
-        "accountNumber": "110356123433"
+        "accountNumber": "110356123433",
+        "fundLink": "https://www.barclays.co.uk/personal-banking/"
       },
       "phoneNumber": "07700 900123",
       "parents": [
@@ -51,7 +52,8 @@
       "name": "Charlotte Evans",
       "account": {
         "bankName": "NatWest",
-        "accountNumber": "3520952466911"
+        "accountNumber": "3520952466911",
+        "fundLink": "https://www.barclays.co.uk/personal-banking/"
       },
       "phoneNumber": "07700 901234",
       "parents": [

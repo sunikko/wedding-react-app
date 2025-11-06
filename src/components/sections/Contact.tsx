@@ -72,7 +72,15 @@ function ContactInfo({ name, account, phoneNumber }: Person) {
           </a>
         </li>
         <li>
-          <button className={cx('button')}>
+          <button
+            className={cx('button')}
+            onClick={() => {
+              navigator.clipboard.writeText(
+                `${account.bankName} ${account.accountNumber}`,
+              )
+              alert('Copied to clipboard')
+            }}
+          >
             <FaRegCopy aria-label="Copy Account Info" />
           </button>
         </li>
