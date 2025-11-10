@@ -7,11 +7,16 @@ import Heading from '@components/sections/Heading'
 import Movie from '@components/sections/Movie'
 import ImageGallery from '@components/sections/ImageGallery'
 
+import { weddingData } from '@data/wedding'
 import { Wedding } from '@models/wedding'
 import Intro from '@components/sections/Intro'
 import Invitation from '@components/sections/Invitation'
 import Calendar from '@components/sections/Calendar'
 import Contact from '@components/sections/Contact'
+
+const isDevelopment = process.env.NODE_ENV === 'development'
+const USE_LOCAL_API =
+  isDevelopment && process.env.REACT_APP_USE_LOCAL_API === 'true'
 
 const cx = className.bind(styles)
 function App() {
@@ -33,23 +38,30 @@ function App() {
   useEffect(() => {
     setLoading(true)
 
-    fetch('http://localhost:8888/wedding')
-      .then((response) => {
-        if (response.ok === false) {
-          throw new Error('could not fetch data')
-        }
-        return response.json()
-      })
-      .then((data) => {
-        setWedding(data)
-      })
-      .catch((e) => {
-        console.log('Error', e)
-        setError(true)
-      })
-      .finally(() => {
+    if (USE_LOCAL_API) {
+      fetch('http://localhost:8888/wedding')
+        .then((response) => {
+          if (response.ok === false) {
+            throw new Error('could not fetch data')
+          }
+          return response.json()
+        })
+        .then((data) => {
+          setWedding(data)
+        })
+        .catch((e) => {
+          console.log('Error', e)
+          setError(true)
+        })
+        .finally(() => {
+          setLoading(false)
+        })
+    } else {
+      setTimeout(() => {
+        setWedding(weddingData.wedding as Wedding)
         setLoading(false)
-      })
+      }, 500)
+    }
   }, [])
 
   if (showIntro) {
@@ -86,7 +98,6 @@ function App() {
       <ImageGallery images={galleryImages} />
       <Calendar date={date} />
       <Contact groom={wedding.groom} bride={wedding.bride} />
-      {JSON.stringify(wedding)}
     </div>
   )
 }

@@ -1,0 +1,104 @@
+export const weddingData = {
+  wedding: {
+    id: 1,
+    date: '2025-10-12T14:00:00',
+    location: {
+      lat: 51.5138,
+      lng: -0.0984,
+      name: 'Noblesse Wedding Convention, 7th Floor Convention Hall',
+      address: "St Paul's Cathedral, London EC4M 8AD, United Kingdom",
+      link: 'https://www.google.com/maps/search/?api=1&query=51.5138,-0.0984',
+      waytocome: {
+        metro: [
+          "Shuttle service available → St Paul's Underground Station (Central Line), 5-minute walk",
+        ],
+        bus: [
+          "From Victoria Station → St Paul's Cathedral stop: Bus 11, 15, or 26 (approx. 20 min)",
+          "From Waterloo Station → St Paul's Cathedral stop: Bus 4 or 76 (approx. 15 min)",
+          "From King's Cross → St Paul's Cathedral stop: Bus 63 (approx. 30 min)",
+          'From Paddington Station → Change at Oxford Circus to Central Line (approx. 25 min)',
+          "From Heathrow Airport → Take the Heathrow Express to Paddington, then Central Line to St Paul's (approx. 1 hour)",
+        ],
+      },
+    },
+    groom: {
+      name: 'William Turner',
+      account: {
+        bankName: 'Barclays',
+        accountNumber: '110356123433',
+        fundLink: 'https://www.barclays.co.uk/personal-banking/',
+      },
+      phoneNumber: '07700 900123',
+      parents: [
+        {
+          name: 'Robert Turner',
+          account: {
+            bankName: 'HSBC',
+            accountNumber: '23333151061400',
+            fundLink: '',
+          },
+          phoneNumber: '07700 900456',
+        },
+        {
+          name: 'Margaret Turner',
+          account: {
+            bankName: 'HSBC',
+            accountNumber: '3521252455990',
+            fundLink: '',
+          },
+          phoneNumber: '07700 900789',
+        },
+      ],
+    },
+    bride: {
+      name: 'Charlotte Evans',
+      account: {
+        bankName: 'NatWest',
+        accountNumber: '3520952466911',
+        fundLink: 'https://www.barclays.co.uk/personal-banking/',
+      },
+      phoneNumber: '07700 901234',
+      parents: [
+        {
+          name: 'Thomas Evans',
+          account: {
+            bankName: 'Monzo',
+            accountNumber: '3333111211932',
+            fundLink: '',
+          },
+          phoneNumber: '07700 901567',
+        },
+        {
+          name: 'Elizabeth Evans',
+          account: {
+            bankName: 'Lloyds',
+            accountNumber: '222198842472',
+            fundLink: '',
+          },
+          phoneNumber: '07700 901890',
+        },
+      ],
+    },
+    message: {
+      intro:
+        'With the purest heart,\nWith thoughts meant just for you,\nI wish to fill my soul with love for you.\nThough what I offer may be small,\nIf you allow me,\nLet it be said that it is my entire heart.\n\n– Charlotte Evans <My Heart>',
+      invitation:
+        'You are warmly invited.\nAs the gentle breeze carries love through the air,\nTwo people join together to begin a new life as partners.\nPlease join us on this joyful occasion\nAnd bless the beginning of our new journey.',
+    },
+    galleryImages: [
+      '/assets/image/wedding_01.jpg',
+      '/assets/image/wedding_02.jpg',
+      '/assets/image/wedding_03.jpg',
+      '/assets/image/wedding_04.jpg',
+      '/assets/image/wedding_05.jpg',
+      '/assets/image/wedding_06.jpg',
+      '/assets/image/wedding_07.jpg',
+      '/assets/image/wedding_08.jpg',
+      '/assets/image/wedding_09.jpg',
+      '/assets/image/wedding_10.jpg',
+      '/assets/image/wedding_11.jpg',
+      '/assets/image/wedding_12.jpg',
+    ],
+    attendCount: 0,
+  },
+}
