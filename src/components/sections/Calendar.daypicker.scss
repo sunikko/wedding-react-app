@@ -1,0 +1,7 @@
+.rdp-nav { display: none; }
+.rdp-cell { cursor: default; }
+.rdp-rdp-weekdays { font-weight: bold; font-size: 14px; color: var(--red);}
+.rdp-selected {font-weight: bold; color: var(--red);}
+.rdp-day_selected:hover { background-color: var(--red); }
+.rdp-day_button { cursor:default; pointer-events: none; }
+.rdp-root {--rdp-accent-color: var(--red);}

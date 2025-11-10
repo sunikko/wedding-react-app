@@ -1,0 +1,16 @@
+.wrap-images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.5vw;
+}
+
+.wrap-image {
+    aspect-ratio: 1 / 1;
+}
+
+.wrap-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}

@@ -1,0 +1,57 @@
+@import "@scss/utils.scss";
+
+.container {
+    @include txt-content;
+
+    .wrap-persons { 
+        font-size: 22px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        letter-spacing: 1.4px;
+        font-weight: bold;
+        margin: 42px 0 8px;
+
+        .ico-heart {
+            color: var(--red);
+            width: 16px;
+            height: 16px;
+            margin: 0 6px;
+        }
+
+        .person {
+            display: inline-block;
+            min-width: 120px;
+            text-align: center;
+        }
+    }
+
+    .ico-flower {
+        color: var(--red);
+        width: 24px;
+        height: 24px;
+        margin-bottom: 6px;
+        
+        transition: transform 0.3s ease;
+        
+        &:hover {
+            transform: rotate(15deg);
+        }
+    }
+
+    .wrap-location {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 40px;
+        .date {
+            font-size: 18px;
+            font-weight: 500;
+            letter-spacing: 0.5px;
+        }
+
+        .location {
+            font-size: 16px;
+            color: #888;
+        }
+    }   
+}

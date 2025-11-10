@@ -1,0 +1,12 @@
+@import "@scss/utils.scss";
+
+.container {
+    @include txt-content;
+
+    .ico-post {
+        color: var(--red);
+        width: 24px;
+        height: 24px;
+        margin-bottom: 6px;
+    }
+}
