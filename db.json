@@ -80,18 +80,18 @@
       "invitation": "You are warmly invited.\nAs the gentle breeze carries love through the air,\nTwo people join together to begin a new life as partners.\nPlease join us on this joyful occasion\nAnd bless the beginning of our new journey."
     },
     "galleryImages": [
-      "/assets/image/wedding_01.jpg",
-      "/assets/image/wedding_02.jpg",
-      "/assets/image/wedding_03.jpg",
-      "/assets/image/wedding_04.jpg",
-      "/assets/image/wedding_05.jpg",
-      "/assets/image/wedding_06.jpg",
-      "/assets/image/wedding_07.jpg",
-      "/assets/image/wedding_08.jpg",
-      "/assets/image/wedding_09.jpg",
-      "/assets/image/wedding_10.jpg",
-      "/assets/image/wedding_11.jpg",
-      "/assets/image/wedding_12.jpg"
+      "https://sunikko.github.io/gh-pages/image/wedding_01.jpg",
+      "https://sunikko.github.io/gh-pages/image/wedding_02.jpg",
+      "https://sunikko.github.io/gh-pages/image/wedding_03.jpg",
+      "https://sunikko.github.io/gh-pages/image/wedding_04.jpg",
+      "https://sunikko.github.io/gh-pages/image/wedding_05.jpg",
+      "https://sunikko.github.io/gh-pages/image/wedding_06.jpg",
+      "https://sunikko.github.io/gh-pages/image/wedding_07.jpg",
+      "https://sunikko.github.io/gh-pages/image/wedding_08.jpg",
+      "https://sunikko.github.io/gh-pages/image/wedding_09.jpg",
+      "https://sunikko.github.io/gh-pages/image/wedding_10.jpg",
+      "https://sunikko.github.io/gh-pages/image/wedding_11.jpg",
+      "https://sunikko.github.io/gh-pages/image/wedding_12.jpg"
     ],
     "attendCount": "0"
   }
